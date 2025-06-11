@@ -1,0 +1,6 @@
+Class1.cs filter=lfs diff=lfs merge=lfs -text
+Dll1 filter=lfs diff=lfs merge=lfs -text
+chai3dplugin filter=lfs diff=lfs merge=lfs -text
+x64 filter=lfs diff=lfs merge=lfs -text
+CHAI3D.sln filter=lfs diff=lfs merge=lfs -text
+ChaiTeaPlugin filter=lfs diff=lfs merge=lfs -text
