@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{30865174-c57d-44c8-8221-19a390e8fd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{e2133162-e686-45ab-a3a1-83d358c69e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World">
+      <UniqueIdentifier>{e0b0d641-3eb6-47dc-bb28-b5fdb2942ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{b6d2685c-21b6-47b2-aeb8-dcc002150733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{c1b7b3da-653a-4df9-9eec-e103b271ba39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World">
+      <UniqueIdentifier>{2e5f9a8b-c26a-40c4-9921-0c72270e8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ODE">
+      <UniqueIdentifier>{e2303faa-a79d-4249-ac04-224a26613cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ODE">
+      <UniqueIdentifier>{3f2fbb9d-c788-435f-a1b1-344f917ce749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\clock">
+      <UniqueIdentifier>{f1968c19-b428-4a9c-8e96-f29a29e4560f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\clock">
+      <UniqueIdentifier>{4ad9f409-3cdb-4de6-bba5-87cb6b7f2a6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericTool.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HapticDevice.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolCursor.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericObject.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="HapticMaterial.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMesh.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolGripper.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ODEworld.h">
+      <Filter>头文件\ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="ODEGenericBody.h">
+      <Filter>头文件\ODE</Filter>
+    </ClInclude>
+    <ClInclude Include="precisionclock.h">
+      <Filter>头文件\clock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GenericTool.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="HapticDevice.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolCursor.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericObject.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="HapticMaterial.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiMesh.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolGripper.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ODEworld.cpp">
+      <Filter>源文件\ODE</Filter>
+    </ClCompile>
+    <ClCompile Include="ODEGenericBody.cpp">
+      <Filter>源文件\ODE</Filter>
+    </ClCompile>
+    <ClCompile Include="precisionclock.cpp">
+      <Filter>源文件\clock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
